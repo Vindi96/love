@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Caveat, Geist, Playfair_Display } from "next/font/google";
+import { Caveat, Geist, Noto_Serif_Sinhala, Playfair_Display } from "next/font/google";
 import { names } from "./content";
 import "./globals.css";
 
@@ -18,6 +18,11 @@ const hand = Caveat({
   subsets: ["latin"],
 });
 
+const sinhala = Noto_Serif_Sinhala({
+  variable: "--font-sinhala",
+  subsets: ["sinhala", "latin"],
+});
+
 export const metadata: Metadata = {
   title: `Happy Birthday, ${names.him}! ❤️`,
   description: "A special birthday mission. 5 levels stand between you and your surprise.",
@@ -29,7 +34,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${display.variable} ${hand.variable}`}>
+    <html lang="en" className={`${geistSans.variable} ${display.variable} ${hand.variable} ${sinhala.variable}`}>
       <body>{children}</body>
     </html>
   );
