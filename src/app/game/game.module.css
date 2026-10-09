@@ -42,8 +42,15 @@
   position: relative;
   z-index: 1;
   max-width: 920px;
-  width: 40%;
+  width: 100%;
   animation: fadeUp 0.5s ease both;
+}
+
+@media (min-width: 1401px) {
+  .stage {
+    width: 40%;
+    max-width: none;
+  }
 }
 
 /* ---------- Floating background hearts ---------- */
