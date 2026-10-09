@@ -106,10 +106,10 @@ export const funnyQuiz: QuizQuestion[] = [
     wrong: "Sweet of you to think so 😂",
   },
   {
-    question: "Who wins most of our arguments?",
+    question: "Who complains most?",
     options: [names.her, names.him, `${names.her}, but ${names.him} pretends otherwise`],
-    answer: 2,
-    correct: "Smart man. You may proceed 😌",
+    answer: 1,
+    correct: "Yes always via Whatsapp. 😌",
     wrong: "Are you sure about that? 😂",
   },
 ];
