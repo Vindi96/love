@@ -107,7 +107,7 @@ export const funnyQuiz: QuizQuestion[] = [
   },
   {
     question: "Who complains most?",
-    options: [names.her, names.him, `${names.her}, but ${names.him} pretends otherwise`],
+    options: [names.her, names.him, `${names.her}`],
     answer: 1,
     correct: "Yes always via Whatsapp. 😌",
     wrong: "Are you sure about that? 😂",
