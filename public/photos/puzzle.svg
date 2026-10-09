@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" width="900" height="900">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff9a8b"/>
+      <stop offset="0.55" stop-color="#ffc3a0"/>
+      <stop offset="1" stop-color="#ffe5c4"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6fb7d6"/>
+      <stop offset="1" stop-color="#2c6e91"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="900" fill="url(#sky)"/>
+  <!-- sun -->
+  <circle cx="450" cy="470" r="150" fill="#ffd166" opacity=".9"/>
+  <!-- clouds -->
+  <g fill="#fff" opacity=".85">
+    <ellipse cx="150" cy="140" rx="90" ry="32"/><ellipse cx="200" cy="120" rx="60" ry="30"/>
+    <ellipse cx="720" cy="220" rx="100" ry="30"/><ellipse cx="770" cy="200" rx="55" ry="28"/>
+  </g>
+  <!-- birds -->
+  <g fill="none" stroke="#6b2d3c" stroke-width="5" stroke-linecap="round">
+    <path d="M560 110 q15 -15 30 0 q15 -15 30 0"/><path d="M640 160 q10 -10 20 0 q10 -10 20 0"/>
+  </g>
+  <!-- sea -->
+  <rect y="520" width="900" height="200" fill="url(#sea)"/>
+  <g stroke="#fff" stroke-width="4" opacity=".5" stroke-linecap="round">
+    <path d="M60 570h90M300 600h120M620 560h80M720 640h110M140 670h70"/>
+  </g>
+  <!-- sand -->
+  <path d="M0 700 Q450 640 900 700 V900 H0Z" fill="#f4d6a0"/>
+  <!-- palm tree -->
+  <path d="M110 760 Q130 600 90 470" stroke="#7a4a2a" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <g fill="#3f8f5a">
+    <path d="M90 470 q-90 -10 -100 50 q50 -50 100 -50z"/><path d="M90 470 q80 -50 140 0 q-70 -20 -140 0z"/>
+    <path d="M90 470 q-30 -90 -110 -80 q70 20 110 80z"/><path d="M90 470 q40 -90 110 -90 q-70 30 -110 90z"/>
+  </g>
+  <!-- couple -->
+  <g fill="#4a2333">
+    <circle cx="410" cy="600" r="26"/><path d="M380 630 h60 l10 120 h-80z"/>
+    <circle cx="500" cy="610" r="24"/><path d="M470 640 h60 l25 110 h-110z"/>
+    <path d="M440 670 q20 -15 35 0" stroke="#4a2333" stroke-width="10" fill="none"/>
+  </g>
+  <!-- heart above them -->
+  <path d="M455 530 c-20 -30 -60 -10 -40 20 l40 35 l40 -35 c20 -30 -20 -50 -40 -20z" fill="#e8436b"/>
+  <!-- sandcastle -->
+  <g fill="#d9a85e">
+    <rect x="700" y="760" width="110" height="60"/><rect x="690" y="730" width="30" height="40"/><rect x="790" y="730" width="30" height="40"/>
+    <rect x="735" y="715" width="40" height="50"/>
+  </g>
+  <path d="M755 715 v-40 l25 10 l-25 10" fill="#e8436b" stroke="#7a4a2a" stroke-width="3"/>
+  <!-- shells & starfish -->
+  <circle cx="250" cy="830" r="14" fill="#fff" opacity=".8"/><circle cx="600" cy="860" r="10" fill="#fff" opacity=".8"/>
+  <path d="M380 840 l10 22 24 2 -18 16 6 24 -22 -13 -22 13 6 -24 -18 -16 24 -2z" fill="#ff8a65"/>
+  <!-- text -->
+  <text x="450" y="300" font-family="Georgia, serif" font-size="64" fill="#fff" text-anchor="middle" stroke="#b8264d" stroke-width="2" style="paint-order:stroke">Nuwan ❤ Vindya</text>
+  <text x="450" y="880" font-family="sans-serif" font-size="22" fill="#7a4a2a" text-anchor="middle" opacity=".7">placeholder · replace with a real photo</text>
+</svg>
